@@ -7,13 +7,25 @@ body {
 body {
   background-color: #039be5;
 }
+
+.card {
+  height: 40rem;
+}
+
 .card-content h3 {
   font-size: 1.4rem;
 }
+
+.content {
+  height: 8rem;
+  overflow: auto;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
 }
+
 .contenedor-noticias {
   padding: 2rem;
   border-radius: 1rem;  
@@ -25,27 +37,36 @@ body {
   margin-bottom: 2rem;
   text-align: left;
 }
+
 .buscador label {
   font-size: 2rem;
   color: black;
 }
+
 .dropdown-content li>span {
   color: black;
 }
+
 .select-wrapper input.select-dropdown:focus {
   border-bottom: 1px solid #e64a19!important;
 }
+
+h1 {
+  font-size: 10vh;
+}
+
 h2 {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-align: center;
 }
 
 .card-action .btn {
   width: 100%;
+  align-items: center;
 }
+
 .enviar input[type="submit"] {
   width: 100%;
 }
